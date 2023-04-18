@@ -1,0 +1,108 @@
+.settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .settingsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    max-width: 800px;
+  }
+  
+  .settingsTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .settingsUpdateTitle {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+  }
+  
+  .settingsDeleteTitle {
+    font-size: 16px;
+    color: red;
+  }
+  
+  .settingsForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .settingsForm label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .settingsForm input[type="text"],
+  .settingsForm input[type="email"],
+  .settingsForm input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .settingsPP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .settingsPP img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .settingsPP label {
+    cursor: pointer;
+  }
+  
+  .settingsPPIcon {
+    font-size: 36px;
+    color: #ebe2e2;
+    background-color: coral;
+    border-radius: 50%;
+  }
+  
+  .settingsSubmit {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .settingsSubmit:hover {
+    background-color: rgb(1, 74, 74);
+  }
+  
+  
